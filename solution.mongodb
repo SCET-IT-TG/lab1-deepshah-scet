@@ -35,8 +35,12 @@ db.subjects.insert({
 
 db.faculty.insert({
   department: "IT",
-  teachers: ["xx","yy","zz"]
-})
+  teachers: [
+    { name: "xx", experience: 5 },
+    { name: "yy", experience: 3 },
+    { name: "zz", experience: 7 }
+  ]
+});
 
 
 db.students.insertOne({
@@ -74,3 +78,7 @@ db.students.insertOne({
    department: "IT",
    semester: 5
  })
+
+
+
+
