@@ -20,7 +20,7 @@ db.students.insertOne({
    name: "Rahul",
    department: "IT",
    semester: 5,
-   mobile: 1234567890
+   mobile: "1234567890"
  })
 
 
@@ -28,14 +28,14 @@ db.students.insertOne({
 
 db.subjects.insert({
   course_name: "IT",
-  subjects: ["NOSQL","AIA","MATHS"],
+  subject_list: ["NOSQL","AIA","MATHS"],
 })
 
 
 
 db.faculty.insert({
   department: "IT",
-  teachers: ["xx","yy","zz"],
+  teachers: ["xx","yy","zz"]
 })
 
 
