@@ -20,7 +20,7 @@ db.students.insertOne({
    name: "Rahul",
    department: "IT",
    semester: 5,
-   mobile: "1234567890"
+   mobile: 1234567890
  })
 
 
@@ -78,6 +78,7 @@ db.students.insertOne({
    department: "IT",
    semester: 5
  })
+
 
 
 
